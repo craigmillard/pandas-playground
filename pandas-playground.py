@@ -9,7 +9,7 @@ def main():
     compared.columns = compared.columns.get_level_values(0)
     original = compared.loc[:,~compared.columns.duplicated()]
     new = compared.loc[:,~compared.columns.duplicated(keep='last')]
-    print(compared.columns.get_level_values(0).unique())
+    print(    original.count())
 
 if __name__ == "__main__":
     main()
