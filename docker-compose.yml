@@ -6,7 +6,7 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - C:\Projects\pandasplayground:/home/jovyan/work
+      - ./:/home/jovyan/work
     environment:
       JUPYTER_ENABLE_LAB: "yes"
       JUPYTER_TOKEN: "salmonisyummy"

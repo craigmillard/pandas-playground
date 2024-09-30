@@ -1,13 +1,5 @@
-# pandasplayground
+# pandas playground
 
-```bash
-docker run -v C:\Projects\pandasplayground:/home/jovyan/work -p 10000:8888 quay.io/jupyter/scipy-notebook:2024-08-30 
-```
+This project contains various examples of data wrangling within a docker hosted jupyter notebooks. 
 
-```bash
-docker image list 
-```
-
-```bash
-docker run -p 10000:8888 533c7b7645af
-```
+If you use pycharm there is a checked-in run configuration for starting jupyter, otherwise you can use the compose file directly. 
