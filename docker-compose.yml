@@ -1,7 +1,6 @@
-version: "3.9"
-   
 services:
   jupyter:
+    build: .
     image: quay.io/jupyter/scipy-notebook:2024-08-30
     ports:
       - "8888:8888"
