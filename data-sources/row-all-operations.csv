@@ -1,8 +1,8 @@
-id,species,species_count
-1,salmon,1
-2,pollock,5
-3,salmon,2
-4,black cod,5
-5,salmon,1
-6,sablefish,2
+id,species,species_count,sampled
+1,salmon,1,y
+2,pollock,5,y
+3,salmon,2,y
+4,black cod,5,y
+5,salmon,1,y
+6,sablefish,2,y
  
